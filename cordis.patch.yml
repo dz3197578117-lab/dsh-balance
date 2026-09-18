@@ -1,0 +1,5 @@
+# dsh-balance bundle patch：单包单插件。
+# 宿主半边注册 /api/dsh-balance/summary 路由；客户端半边在 shell.overlay 里常驻显示。
+- insert:
+    - id: dsh-balance
+      name: dsh-balance
