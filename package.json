@@ -2,6 +2,14 @@
   "name": "dsh-balance",
   "version": "0.1.0",
   "description": "常驻余额指示器：Host 查询各 provider 余额并注册 /api 路由，Client 在 shell.overlay 常驻显示（可拖动、原生主题风格）。",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dz3197578117-lab/dsh-balance.git"
+  },
+  "homepage": "https://github.com/dz3197578117-lab/dsh-balance#readme",
+  "bugs": {
+    "url": "https://github.com/dz3197578117-lab/dsh-balance/issues"
+  },
   "type": "module",
   "main": "index.js",
   "exports": {
